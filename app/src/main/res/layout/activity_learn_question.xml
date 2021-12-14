@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/back_ground"
+android:orientation="vertical"
+android:weightSum="100"
+tools:context=".LearnQuestion">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="84"
+    android:weightSum="100"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:background="@drawable/border"
+    android:gravity="center_vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question : "
+        android:gravity="start"
+        android:textAlignment="gravity"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="30"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal|center_vertical">
+        <EditText
+            android:id="@+id/et_answer_question_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical|center_horizontal"
+            />
+
+    </TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer : "
+        android:gravity="start"
+        android:textAlignment="gravity"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="30"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal|center_vertical">
+        <EditText
+            android:id="@+id/et_answer_question_answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:textSize="18dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical|center_horizontal"
+            />
+
+    </TableRow>
+
+</LinearLayout>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="15"
+    android:weightSum="100"
+    android:layout_margin="5dp"
+    android:gravity="center_horizontal|center_vertical">
+    <Button
+        android:id="@+id/but_answer_question_save"
+        style="?android:textAppearanceSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:textColor="@color/accent"
+        android:background="@drawable/blue_but"
+        android:text="Save"
+        android:textStyle="bold" />
+</TableRow>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/back_ground"
+android:orientation="vertical"
+android:weightSum="100"
+tools:context=".MainActivity">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="100"
+    android:weightSum="100"
+    android:layout_margin="5dp"
+    android:background="@drawable/border"
+    android:gravity="center_horizontal|center_vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chats_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_weight="10"
+    android:weightSum="100"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="15dp"
+    android:gravity="center_horizontal|center_vertical">
+<EditText
+    android:id="@+id/et_input"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:textSize="20dp"
+    android:padding="5dp"
+    android:layout_weight="100"
+    android:background="@drawable/border"
+    />
+    <Button
+        android:id="@+id/but_enter"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/enter_input"
+        android:textColor="@color/accent"
+        android:onClick="enter_input_click"
+        android:textStyle="bold"
+>
+
+    </Button>
+
+</TableRow>
+</LinearLayout>

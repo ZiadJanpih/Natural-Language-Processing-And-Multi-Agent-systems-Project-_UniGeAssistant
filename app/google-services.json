@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479548034098",
+    "project_id": "unigeassistant-4e36b",
+    "storage_bucket": "unigeassistant-4e36b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479548034098:android:8e5b7783e901c43226002b",
+        "android_client_info": {
+          "package_name": "com.ziad.unigeassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479548034098-27rlbttdsp0d4pa2b2v8v2snmjl3d9ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjy7evonEso96_PHIcib4BemVBmqrYWiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479548034098-27rlbttdsp0d4pa2b2v8v2snmjl3d9ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

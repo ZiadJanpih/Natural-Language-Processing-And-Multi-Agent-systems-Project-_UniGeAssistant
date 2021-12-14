@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:weightSum="100">
+
+
+    <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="15"
+    android:weightSum="100"
+    android:layout_margin="5dp"
+    android:gravity="center_horizontal|center_vertical">
+    <TextView
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="I don't know how to answer this question!\n tell my what to do!"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal|center_vertical">
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal|center_vertical">
+        <Button
+            android:id="@+id/but_learn"
+            style="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:textColor="@color/accent"
+            android:background="@drawable/blue_but"
+            android:text="You will teach me !"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal|center_vertical">
+        <Button
+            android:id="@+id/but_ask_bots"
+            style="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:textColor="@color/accent"
+            android:background="@drawable/blue_but"
+            android:text="I ask my friends"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal|center_vertical">
+        <Button
+            android:id="@+id/but_submit_to_server"
+            style="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:textColor="@color/accent"
+            android:background="@drawable/blue_but"
+            android:text="Submit Question to Server"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal|center_vertical">
+        <Button
+            android:id="@+id/but_do_nothing"
+            style="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:textColor="@color/accent"
+            android:background="@drawable/blue_but"
+            android:text="Do nothing"
+            android:textStyle="bold" />
+    </TableRow>
+</LinearLayout>
